@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Introdução HTML</title>
+    </head>
+    <body>
+        <h1 id="topo">Introdução ao HTML - Tutorial Básico</h1>
+        <hr />
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#o que é o HTML">O que é o HTML</a></li>
+            <li><a href="#elementos">Elementos</a></li>
+            <li><a href="#comandos Basicos">Comandos Básicos HTML</a></li>
+            <li><a href="#como incluir links">Como incluir links externos e internos</a></li>
+            <li><a href="#conclusao">Conclusão</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+        <h3 id="o que é o HTML">O que é o HTML</h3>
+        <p>
+            Como o próprio nome já diz <strong>"HyperText Markup Language"</strong> - Linguagem de Marcação de Hipertexto - o HTML não é considerado uma linguagem de programação, mas sim, uma linguagem de <strong>marcação</strong>.
+            Isso ocorre porque um documento HTML não possui uma sequência lógica de comandos; ou seja, não é necessário montar uma estrutura conectada com uma ordem específica para que ele "funcione".
+        </p>    
+        <p>
+            Já na linguagem de programação é necessário um <strong>algoritmo</strong> para executar uma ação específica.
+        </p>
+        <h3 id="elementos">Elementos</h3>
+        <p>
+            Chamamos de <strong>elementos</strong> todas as tags que são utilizadas para a contrução do HTML, que consiste em duas partes: Cabeça (head) e corpo (body).
+        </p>
+        <p>
+            Os elementos principais de um HTML são:
+            <ul>
+                <li><strong style="color: red;">html:</strong> Utilizado sempre para iniciar um documento, declarando que o mesmo é um HTML;</li>
+                <img src="imagens/html.png"\>
+                <li><strong style="color: red;">head:</strong> Utilizado para cabeçarios;</li>
+                <img src="imagens/head.png"\>
+                <li><strong style="color: red;">body:</strong> Utilizado para desenvolver o corpo, parte visual da página. </li>
+                <img src="imagens/body.png"\>
+            </ul>
+        </p>
+        <h3 id="comandos Basicos"> Comandos Básicos HTML</h3>
+        <p>
+            Temos algumas tags essenciais (mas não obrigatórias) para a construção de um documento.
+        </p>
+        <p>
+            Segue algumas:
+        </p>
+        <ul>
+            <li><strong style="color: green;">Cabeçalhos:</strong> Os cabeçalhos são definidos com as tags <strong style="color: red;">h1</strong> até <strong style="color: red;"> h6</strong>.
+                <ol>
+                    <li><strong style="color: red;">h1:</strong> Definido como títulos mais importantes, normalmente utilizado para títulos principais;</li>
+                    <li><strong style="color: red;">h2:</strong> Definido como subtítulos importantes que estão abaixo do <strong>h1</strong>;</li>
+                    <li><strong style="color: red;">h3:</strong> Definido como títulos de seções menores;</li>
+                    <li><strong style="color: red;">h4, h5 e h6:</strong> Definido como títulos de seções menores e menos importantes do documento.</li>
+                    <img src="imagens/title.png"\>
+                </ol>
+                </li>
+                <li><strong style="color: red;">p:</strong> Utilizado para paragráfos;</li>
+                <img src="imagens/p.png"\>
+                <li><strong style="color: red;">a:</strong> Utilizado para links, devemos inserir o atributo <strong style="color: rgb(223, 50, 165);">href</strong> para que o destino do link seja especifícado;</li>
+                <img src="imagens/link.png"\>
+                <li><strong style="color: red;">img:</strong> Utilizado para inserir imagens, devemos inserir o atributo <strong style="color: rgb(223, 50, 165);">src</strong> para especificar o caminho ou nome do arquivo da imagem;</li>
+                <img src="imagens/img.png"\>
+                <li><strong style="color: red;">ol:</strong> Utilizado para listas ordenadas;</li>
+                <img src="imagens/ordered list.png"\>
+                <li><strong style="color: red;">ul:</strong> Utilizado para listas não ordenadas;</li>
+                <img src="imagens/unordered list.png"\>
+                <li><strong style="color: red;">li:</strong> Utilizado para inserir os itens da lista, cada item deve começar com essa tag;</li>
+                <img src="imagens/list.png"\>
+                <li><strong style="color: red;">blockquote:</strong> Utilizado geralmente para citações;</li>
+                <img src="imagens/blockquote.png"\>
+                <li><strong style="color: red;">strong:</strong> Utilizado para textos em negrito;</li>
+                <img src="imagens/strong.png"\>
+                <li><strong style="color: red;">i:</strong> Utilizado para textos em itálico;</li>
+                <img src="imagens/italic.png"\>
+                <li><strong style="color: red;">small:</strong> Utilizado para textos menores;</li>
+                <img src="imagens/small.png"\>
+                <li><strong style="color: red;">mark:</strong> Utilizado para grifar um texto;</li>
+                <img src="imagens/mark.png"\>
+                <li><strong style="color: red;">u:</strong> Utilizado para sublinhar palavras ou textos.</li>
+                <img src="imagens/u.png"\>
+        </ul>
+        <h3 id="como incluir links">Como incluir links externos e internos</h3>
+        <p>
+            Nos referimos como <u>links externos</u> a qualquer link que não esteja dentro do seu documento HTML, cuja intenção é redirecionar o leitor para outra página.
+            Por outro lado, <u>links internos</u> são aqueles cuja intenção é direcionar para outras partes do mesmo documento HTML. 
+            Abaixo, explicaremos com mais detalhes.
+        </p>
+        <h4>Links externos</h4>
+        <p>
+            Para inserirmos links externos devemos utilizar a tag "<strong style="color: red;">a</strong>" e inserir o atributo "<strong style="color: rgb(223, 50, 165);">href</strong>" para assim inserir o destino do link. Devemos também nomear o título do hiperlink, o qual será o texto clicável que aparece a página.
+        </p>
+        <img src="imagens/link.png"\>
+        <h4>Links internos</h4>
+        <p>
+            É possível também criar links para páginas da sua HTML, criando novos arquivos e nomeando-os. Isso permite separar a página principal das demais que deseja criar.
+        </p>
+        <p>
+            Na hora de construir a tag para direcionar para sua outra página, em vez de inserir uma URL, você utilizará o nome da página desejada.
+        </p>
+        <img src="imagens/link html.png"\>
+        <h3 id="conclusao">Conclusão</h3>
+        <p>
+            Por mais que a linguagem HTML não seja de programação, ela é fundamental para a criação de páginas web. Utilizando uma estrutura de marcação simples e clara, composta por tags e atributos, o HTML permite definir a estrutura e o conteúdo de uma página, desde textos simples até elementos mais complexos como imagens, links e formulários. Através do uso correto das tags, é possível criar páginas acessíveis e bem estruturadas, garantindo uma experiência de usuário consistente e eficiente.
+        </p>
+        <h3 id="referencias"><a href="references.html">Referências</a></h3>
+        <small><a href="#topo">Voltar ao topo</a></small>
+    </body>
+</html>
